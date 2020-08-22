@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+		android:gravity="center_horizontal"
+		android:padding="60dp"
+		android:textSize="50sp"
+		android:textColor="#ff9900"
+		android:fontFamily="cursive"/>
+	
+	<TextView
+		android:text="User name"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="30dp"
+		android:textColor="#ff9900"/>
+
+	<EditText
+		android:id="@+id/nnn"
+		android:inputType="text"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="30dp"
+		android:layout_marginBottom="30dp"/>
+	
+	<TextView
+		android:text="Password"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="30dp"
+		android:textColor="#ff9900"/>
+
+	<EditText
+		android:id="@+id/ppp"
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="30dp"
+		android:layout_marginBottom="30dp"/>
+	
+	<Button
+		android:id="@+id/loginbtn"
+		android:text="Login"
+		android:textColor="#ffffff"
+		android:background="@drawable/button_style"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="30dp"
+		android:layout_marginBottom="30dp"/>
+	
+	<TextView
+		android:id="@+id/info"
+		android:gravity="center_horizontal"
+		android:text="Number of remaining attempts : 3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginHorizontal="30dp"
+		android:textColor="#ff9900"/>
+	
+</LinearLayout>
